@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #dbeafe, #c7d2fe);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Login card */
+.login-card {
+  width: 360px;
+  background: #9dbdff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.25);
+}
+
+.login-card h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+/* Login button */
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: #0b3fa8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: #08307f;
+}
+
+/* Or text */
+.or {
+  text-align: center;
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+/* Social buttons */
+.social {
+  display: flex;
+  gap: 10px;
+}
+
+.social button {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: bold;
+}
+
+/* Facebook */
+.fb {
+  background: #1877f2;   /* Facebook blue */
+  color: white;
+}
+
+.fb i {
+  color: white;
+}
+
+/* Google */
+.google {
+  background: white;
+  color: #555;
+  border: 1px solid #ddd;
+}
+
+.google i {
+  color: #db4437;   /* Google red */
+}
+
+/* Signup text */
+.signup {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signup a {
+  color: yellow;
+  font-weight: bold;
+  text-decoration: none;
+}
